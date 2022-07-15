@@ -84,3 +84,14 @@ footer {
   margin: 10px;
   background-color: white;
 }
+@media (max-width: 1028px) {
+  .set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w, .a, .s, .d, .j, .k, .l{
+    margin: 3% 0;
+  }
+}
